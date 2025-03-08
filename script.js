@@ -40,13 +40,13 @@ document.addEventListener('DOMContentLoaded', function() {
         // Handle different commands
         switch (cmd) {
             case 'whois':
-                return 'Hey there! My name is .... , and I am a developer!!!';
+                return 'Hey there! My name is jaguarkid, and I am a html developer!!!';
             case 'about':
                 return 'This is a Terminal Website which functions like a terminal with its own commands';
             case 'help':
                 return 'Types of commands:\n<div class="help-text-container"><pre class="help-text">whois\nhelp\nabout\ncontact\nclear\necho\nproblem</pre></div>';
             case 'contact':
-                return 'You can reach me via email at "info@gmail.com".';
+                return 'You can reach me via email at "methebestestofall@gmail.com".';
                 case 'problem':
                 return 'If you cannot see the inupt field, thats fine keep on writting.';
             case 'clear':
