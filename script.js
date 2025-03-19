@@ -44,11 +44,13 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'about':
                 return 'This is a Terminal Website which functions like a terminal with its own commands';
             case 'help':
-                return 'Types of commands:\n<div class="help-text-container"><pre class="help-text">whois\nhelp\nabout\ncontact\nclear\necho\nproblem</pre></div>';
+                return 'Types of commands:\n<div class="help-text-container"><pre class="help-text">whois\nhelp\nabout\ncontact\nclear\necho\nproblem\ngames</pre></div>';
             case 'contact':
                 return 'You can reach me via email at "methebestestofall@gmail.com".';
-                case 'problem':
-                return 'If you cannot see the inupt field, thats fine keep on writting.';
+            case 'problem':
+                return 'If you cannot see the input field, thats fine keep on writting.';
+            case 'games':
+                return 'Check out some games at jaguarkid817.github.io/ported!'
             case 'clear':
                 clearTerminal();
                 return ''; // Return empty string after clearing terminal
