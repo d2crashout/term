@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Handle different commands
         switch (cmd) {
             case 'whois':
-                return 'Hey there! My name is jaguarkid, and I am a html developer!!!';
+                return 'Hey there! My name is vikingkid, and I am a html, java, and jekyll(partly) developer!!!';
             case 'about':
                 return 'This is a Terminal Website which functions like a terminal with its own commands';
             case 'help':
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'problem':
                 return 'If you cannot see the input field, thats fine keep on writting.';
             case 'games':
-                return 'Check out some games at jaguarkid817.github.io/ported!'
+                return 'Check out some games at d2crashout.github.io!'
             case 'clear':
                 clearTerminal();
                 return ''; // Return empty string after clearing terminal
