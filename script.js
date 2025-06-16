@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'about':
                 return 'This is a Terminal Website which functions like a terminal with its own commands';
             case 'help':
-                return 'Types of commands:\n<div class="help-text-container"><pre class="help-text">whois\nhelp\nabout\ncontact\nclear\necho\nproblem\ngames</pre></div>';
+                return 'Types of commands:\n<div class="help-text-container"><pre class="help-text">whois\nhelp\nabout\ncontact\nclear\necho\nproblem\ngames\nlanguages\nexperience</pre></div>';
             case 'contact':
                 return 'You can reach me via email at "methebestestofall@gmail.com".';
             case 'problem':
