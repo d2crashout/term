@@ -39,8 +39,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Handle different commands
         switch (cmd) {
+            case 'languages':
+                return 'I have used html, css, js, java, a little bit of ruby, go, and rust. I am currently learning Phaser.js and React Native.';
+            case 'experience':
+                return 'I have made many websites using html, I am currently learning Phaser.js and React Native. I have also created my own custom Home Assistant addon.';
             case 'whois':
-                return 'Hey there! My name is vikingkid, and I am a html, java, and jekyll(partly) developer!!!';
+                return 'Hey there! My name is Abhimanyu, and I am a middle schooler who wants to learn how to code.';
             case 'about':
                 return 'This is a Terminal Website which functions like a terminal with its own commands';
             case 'help':
@@ -49,8 +53,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 return 'You can reach me via email at "methebestestofall@gmail.com".';
             case 'problem':
                 return 'If you cannot see the input field, thats fine keep on writting.';
-            case 'games':
-                return 'Check out some games at d2crashout.github.io!'
             case 'clear':
                 clearTerminal();
                 return ''; // Return empty string after clearing terminal
